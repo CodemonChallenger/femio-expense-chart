@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Google Font: DM Sans[400,700] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main>
+      <div class="balance-container">
+        <div>
+          <p>My balance</p>
+          <h1>$921.48</h1>
+        </div>
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <div class="chart-container">
+        <div class="spending">
+          <h1>Spending - Last 7 days</h1>
+          <div class="chart">
+            <div class="day">
+              <div class="bar-info">
+                <div id="monText" class="bar-text"></div>
+                <div id="mon" class="bar"></div>
+              </div>
+              <p>mon</p>
+            </div>
+            <div class="day">
+              <div class="bar-info">
+                <div id="tueText" class="bar-text"></div>
+                <div id="tue" class="bar"></div>
+              </div>
+              <p>tue</p>
+            </div>
+            <div class="day">
+              <div class="bar-info">
+                <div id="wedText" class="bar-text"></div>
+                <div id="wed" class="bar"></div>
+              </div>
+              <p>wed</p>
+            </div>
+            <div class="day">
+              <div class="bar-info">
+                <div id="thuText" class="bar-text"></div>
+                <div id="thu" class="bar"></div>
+              </div>
+              <p>thu</p>
+            </div>
+            <div class="day">
+              <div class="bar-info">
+                <div id="friText" class="bar-text"></div>
+                <div id="fri" class="bar"></div>
+              </div>
+              <p>fri</p>
+            </div>
+            <div class="day">
+              <div class="bar-info">
+                <div id="satText" class="bar-text"></div>
+                <div id="sat" class="bar"></div>
+              </div>
+              <p>sat</p>
+            </div>
+            <div class="day">
+              <div class="bar-info">
+                <div id="sunText" class="bar-text"></div>
+                <div id="sun" class="bar"></div>
+              </div>
+              <p>sun</p>
+            </div>
+          </div>
+        </div>
+        <div class="totals">
+          <div class="this-month">
+            <p>Total this month</p>
+            <h1>$478.33</h1>
+          </div>
+          <div class="percent-change">
+            <p>+2.4%</p>
+            <p><span>from last month</span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/codemonchallenger">Codemon Challenger</a>.
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
